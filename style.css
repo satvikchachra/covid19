@@ -1,0 +1,4 @@
+.card-world-data-confirmed, .card-world-data-recovered, .card-world-data-deaths {
+    color: white;
+    font-size: 20px;
+}
