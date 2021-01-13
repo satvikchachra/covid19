@@ -7,7 +7,7 @@ function Table({ countries }) {
     <div className="table">
       {countries.map((country, idx) => (
         <tr key={idx}>
-          <td> <img style={{height: '1rem', width: '1.5rem'}} src={country.countryInfo.flag} /></td>
+          <td> <img alt="flag" style={{height: '1rem', width: '1.5rem'}} src={country.countryInfo.flag} /></td>
           <td>{country.country}</td>
           <td>
             <strong>{numeral(country.cases).format("0,0")}</strong>

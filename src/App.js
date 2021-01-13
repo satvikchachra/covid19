@@ -47,7 +47,7 @@ const App = () => {
           setCountries(countries);
           setMapCountries(data);
           setTableData(sortedData);
-          console.log(sortedData);
+          // console.log(sortedData);
         });
     };
 
@@ -104,7 +104,7 @@ const App = () => {
         <div className="app__stats">
           <InfoBox
             onClick={(e) => setCasesType("cases")}
-            title="Coronavirus Cases"
+            title="Cases"
             isRed
             active={casesType === "cases"}
             cases={prettyPrintStat(countryInfo.todayCases)}
